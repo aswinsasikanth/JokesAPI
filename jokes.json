@@ -1,14 +1,84 @@
-[
+{
+  "jokes": [
     {
       "id": 1,
-      "joke": "Why don't scientists trust atoms? Because they make up everything!"
+      "text": "Why don't scientists trust atoms? Because they make up everything!"
     },
     {
       "id": 2,
-      "joke": "Why was the math book sad? Because it had too many problems."
+      "text": "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them."
     },
     {
       "id": 3,
-      "joke": "Why can't you give Elsa a balloon? Because she will let it go."
+      "text": "Parallel lines have so much in common. It's a shame they'll never meet."
+    },
+    {
+      "id": 4,
+      "text": "I used to play piano by ear, but now I use my hands."
+    },
+    {
+      "id": 5,
+      "text": "What do you call a fish with no eyes? Fsh."
+    },
+    {
+      "id": 6,
+      "text": "I told my wife she was drawing her eyebrows too high. She looked surprised."
+    },
+    {
+      "id": 7,
+      "text": "Why did the scarecrow win an award? Because he was outstanding in his field!"
+    },
+    {
+      "id": 8,
+      "text": "Why did the bicycle fall over? Because it was two-tired."
+    },
+    {
+      "id": 9,
+      "text": "What's orange and sounds like a parrot? A carrot."
+    },
+    {
+      "id": 10,
+      "text": "I'm reading a book on anti-gravity. It's impossible to put down!"
+    },
+    {
+      "id": 11,
+      "text": "Why did the tomato turn red? Because it saw the salad dressing!"
+    },
+    {
+      "id": 12,
+      "text": "What do you call a bear with no teeth? A gummy bear."
+    },
+    {
+      "id": 13,
+      "text": "I'm on a seafood diet. I see food and I eat it."
+    },
+    {
+      "id": 14,
+      "text": "Why don't skeletons fight each other? They don't have the guts."
+    },
+    {
+      "id": 15,
+      "text": "What do you call a snowman with a six-pack? An abdominal snowman."
+    },
+    {
+      "id": 16,
+      "text": "Why don't scientists trust stairs? Because they're always up to something."
+    },
+    {
+      "id": 17,
+      "text": "I'm reading a book about anti-gravity. It's impossible to put down!"
+    },
+    {
+      "id": 18,
+      "text": "How does a penguin build its house? Igloos it together."
+    },
+    {
+      "id": 19,
+      "text": "Why did the math book look sad? Because it had too many problems."
+    },
+    {
+      "id": 20,
+      "text": "Parallel lines have so much in common. It's a shame they'll never meet."
     }
   ]
+}
