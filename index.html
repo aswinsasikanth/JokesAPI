@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jokes API</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <h1>My Joke:</h1>
+  <button id="getJoke">Get a Joke</button>
+  <p id="joke"></p>
+
+  <script>
+    $(document).ready(function(){
+      $('#getJoke').click(function(){
+        $.ajax({
+          url: 'http://localhost:3000/jokes', // Your localhost address here.
+          type: 'GET',
+          dataType: 'json',
+          success: function(data) {
+            var jokeIndex = Math.floor(Math.random() * data.length); // Assuming server returns an array of jokes.
+            $('#joke').text(data[jokeIndex].joke); // Adjust this line based on how the joke text is stored in your API.
+          },
+          error: function(error) {
+            console.log("There was an error", error);
+          },
+        });
+      });
+    });
+  </script>
+  
+</body>
+</html>
